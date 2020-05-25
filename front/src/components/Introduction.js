@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from './Card'
+import Card from './Card';
 import Menu from './Menu';
 
 
@@ -11,7 +11,7 @@ function Introduction(props){
         <Container>
             <Row>
                 <Col className="left">
-                     <Card />
+                     <Card image={props.image} className={props.className} photoTitle={props.photoTitle}/>
                 </Col>
                 
                 <Col className="right">
