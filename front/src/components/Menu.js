@@ -11,6 +11,7 @@ function Menu(props){
                 <li><a href="#section1">Experience</a></li>
 
                 <li><a href="#section2"><span>Projects</span></a></li>
+                <li><a href="/"><span>Awards</span></a></li>
                 <li><a href="/"><span>Research</span></a></li>
                 <li><a href="/"><span>Contact</span></a></li>
             </ul>
