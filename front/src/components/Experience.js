@@ -18,8 +18,7 @@ function Experience(props){
             <Row className="exp">
                 <Col className="left-exp">
                     <ScrollableAnchor id={'section1'}>
-                     <h1 id="subtitle">Experience</h1>
-
+                        <h1 id="subtitle">Experience</h1>
                     </ScrollableAnchor>
                     <img src={btslogo} alt="BTSDigital logo"></img>
                      <h2 id="company-info"> Location: Kazakhstan, Nur-Sultan </h2>

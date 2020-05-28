@@ -4,6 +4,7 @@ import Me from './assets/photo.jpg';
 
 import Introduction from './components/Introduction';
 import Experience from './components/Experience';
+import Awards from './components/Awards';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
       <div>
         <Introduction image={Me} className="me" photoTitle="It is me!"/>
         <Experience />
+        <Awards />
         
       </div>
     );
