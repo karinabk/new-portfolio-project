@@ -7,13 +7,16 @@ import anita from '../assets/anita.png';
 import mac from '../assets/mck.png';
 import mckphoto from '../assets/mck-photo.JPG';
 import Card from './Card';
+import gif from '../assets/ghc.gif';
+import GifPlayer from 'react-gif-player';
+
 
 
 function Awards(props){
     return(
     <Container>
         <Row>
-        <Col className="left-exp">
+            <Col className="left-exp">
                     <ScrollableAnchor id={'section2'}>
                         <h1 id="subtitle">Awards</h1>
                     </ScrollableAnchor>
@@ -23,7 +26,10 @@ function Awards(props){
                      <h2 id="company-info"> When: October 2019 </h2>
                      <p id="company-descr">GHC is the world’s largest gathering of women in computing. GHC presenters are leaders in their respective fields, representing industry, academia and government.</p>
                      <a href="https://ghc.anitab.org/about/" id="company-info"> Do you want to know more?</a>
-                </Col>
+            </Col>
+            <Col className="right-exp">
+                <GifPlayer className="card gif" gif={gif} still={gif} />
+            </Col>
 
         </Row> 
 
