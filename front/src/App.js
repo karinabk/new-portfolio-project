@@ -6,6 +6,8 @@ import Introduction from './components/Introduction';
 import Experience from './components/Experience';
 import Awards from './components/Awards';
 import Research from './components/Research';
+import Container from 'react-bootstrap/Container';
+import Contact from './components/Contact';
 
 
 class App extends Component {
@@ -16,6 +18,7 @@ class App extends Component {
         <Experience />
         <Awards />
         <Research />
+        <Contact />
         
       </div>
     );

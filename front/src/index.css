@@ -93,6 +93,8 @@ body {
   display: block;
 
 }
+
+
 #company-descr {
   font-family: 'Open Sans', cursive;
   font-weight: 800;
@@ -201,6 +203,44 @@ body {
   bottom: -4px;
 	background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0,0,0,.4) 100%);
 }
+
+#gmail {
+  width: 200px;
+  position: relative;
+  padding-left: 53px;
+  padding-bottom: 100px;
+}
+
+#lin {
+  width: 200px;
+  padding-top: 15px;
+  float:left;
+  position: relative;
+}
+
+#logo-info{
+  float: right;
+  display: inline;
+}
+
+#git {
+  width: 220px;
+  float:left;
+  position: relative;
+  padding-left: 33px;
+  padding-top: 30px;
+}
+
+#leet {
+  width: 220px;
+  float:left;
+  position: relative;
+  padding-left: 53px;
+  padding-top: 30px;
+
+
+}
+
 
 .left-google {
   /* background: rgb(175, 112, 83); */

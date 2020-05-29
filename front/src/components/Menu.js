@@ -13,7 +13,7 @@ function Menu(props){
                 {/* <li><a href="/"><span>Projects</span></a></li> */}
                 <li><a href="#section2">Awards</a></li>
                 <li><a href="#section3">Research</a></li>
-                <li><a href="/"><span>Contact</span></a></li>
+                <li><a href="#section4">Contact</a></li>
             </ul>
 
             
