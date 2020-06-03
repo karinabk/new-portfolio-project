@@ -18,14 +18,14 @@ function Awards(props){
         <Row>
             <Col className="left-exp">
                     <ScrollableAnchor id={'section2'}>
-                        <h1 id="subtitle">Awards</h1>
+                        <h2 className="subtitle">Awards</h2>
                     </ScrollableAnchor>
                     <img id="anita" src={anita} alt="Anita"></img>
-                    <h2 id="company-info">Grace Hopper Celebration Student Scholarship</h2>
-                     <h2 id="company-info"> Location: Orlando, Florida </h2>
-                     <h2 id="company-info"> When: October 2019 </h2>
-                     <p id="company-descr">GHC is the world’s largest gathering of women in computing. GHC presenters are leaders in their respective fields, representing industry, academia and government.</p>
-                     <a href="https://ghc.anitab.org/about/" id="company-info"> Do you want to know more?</a>
+                    <h3 className="info">Grace Hopper Celebration Student Scholarship</h3>
+                     <h3 className="info"> Location: Orlando, Florida </h3>
+                     <h3 className="info"> When: October 2019 </h3>
+                     <p className="info details">GHC is the world’s largest gathering of women in computing. GHC presenters are leaders in their respective fields, representing industry, academia and government.</p>
+                     <a href="https://ghc.anitab.org/about/" className="info"> Do you want to know more?</a>
             </Col>
             <Col className="right-exp">
                 <GifPlayer className="card gif" gif={gif} still={gif} />
@@ -40,11 +40,11 @@ function Awards(props){
                 
                 <Col className="left-google">
                      <img src={mac} id="mck" alt="McKinsey"></img>
-                     <h2 id="company-info"> Next Generation Women Leaders Award</h2>
-                     <h2 id="company-info"> Location: Kazakhstan, Nur-Sultan </h2>
-                     <h2 id="company-info"> When: January 2020</h2>
-                     <p id="company-descr">The Next Generation Women Leaders award is a scholarship designed to recognize talent and support students who would like to maximize their own potential.</p>
-                     <a href="https://www.mckinsey.com/next-generation-women-leaders/overview" id="company-info"> Do you want to know more?</a>
+                     <h3 className="info"> Next Generation Women Leaders Award</h3>
+                     <h3 className="info"> Location: Kazakhstan, Nur-Sultan </h3>
+                     <h3 className="info"> When: January 2020</h3>
+                     <p className="info details">The Next Generation Women Leaders award is a scholarship designed to recognize talent and support students who would like to maximize their own potential.</p>
+                     <a href="https://www.mckinsey.com/next-generation-women-leaders/overview" className="info"> Do you want to know more?</a>
                 </Col>
             </Row>
     </Container>

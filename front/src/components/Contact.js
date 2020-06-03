@@ -15,7 +15,7 @@ function Contact(props){
             <Row>
             <Col className="left-exp">
                     <ScrollableAnchor id={'section4'}>
-                        <h1 id="subtitle">Let's talk!</h1>
+                        <h2 className="subtitle">Let's talk!</h2>
                     </ScrollableAnchor>
                     <div>
                     <a href="https://www.linkedin.com/in/karinabk" target="_blank">
@@ -37,12 +37,6 @@ function Contact(props){
                     </div>
                     
             </Col>
-            <Col className="right-exp">
-                    
-                    
-            </Col>
-                
-                
             </Row>
         </Container>
     )

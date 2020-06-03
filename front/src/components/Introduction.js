@@ -13,9 +13,7 @@ function Introduction(props){
                 <Col className="left">
                      <Card image={props.image} className={props.className} photoTitle={props.photoTitle}/>
                 </Col>
-                
-                <Col className="right">
-                     
+                <Col className="right">  
                      <Menu />
                 </Col>
             </Row>
