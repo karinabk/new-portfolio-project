@@ -19,7 +19,7 @@ function Card(props) {
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
       style={{ transform: temp.xys.interpolate(trans),
       backgroundImage: "url("+props.image+")" }}>
-        <div class="photo-title">{props.photoTitle}</div>
+        <div className="photo-title">{props.photoTitle}</div>
       </animated.div>
     
     
