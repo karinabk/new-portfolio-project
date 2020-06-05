@@ -15,7 +15,6 @@ function Menu(props){
                 <li><a href="#section4">Contact</a></li>
             </ul>
 
-            
         </div>
         
     );
